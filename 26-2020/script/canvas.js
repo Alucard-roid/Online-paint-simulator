@@ -21,7 +21,7 @@ function Draw(e){
     ctx.lineCap = "round";  
     
     // Olovka
-    if(document.getElementById("pencil").checked && brisanje){
+    if(document.getElementById("pencil").checked && crtanje){
         ctx.lineTo(e.clientX, e.clientY);
         ctx.stroke();
     }
