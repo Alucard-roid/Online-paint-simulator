@@ -24,7 +24,7 @@ Pokretanje
 
 Kod
 
- • GitHub link:
+ • GitHub link: https://github.com/Alucard-roid/Online-paint-simulator.git
 
 Kontakt
 
