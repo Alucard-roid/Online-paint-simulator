@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5405c5d2a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Canvas project</title>
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <canvas id="canvas"></canvas>
+        <div class="controls">
+            <div class="type">
+                <input type="radio" name="pen-type" id="pencil">
+                <label>
+                    <i class="fas fa-pencil-alt"></i>
+                </label>
+                <input type="radio" name="pen-type" id="brush">
+                <label>
+                    <i class="fa fa-paint-brush"></i>
+                </label>
+                <input type="radio" name="pen-type" id="line">
+                <label>
+                    <i class="fas fa-slash" aria-hidden="true"></i>
+                </label>
+                <input type="radio" name="pen-type"  id="rect">
+                <label>
+                    <i class="far fa-square" aria-hidden="true"></i>
+                </label>
+                <input type="radio" name="pen-type" id="fill">
+                <label>
+                    <i class="fa fa-square" aria-hidden="true"></i>
+                </label>
+                <input type="radio" name="pen-type"  id="eraser">
+                <label>
+                    <i class="fas fa-eraser"></i>
+                </label>
+                <input type="radio" name="pen-type"  id="text">
+                <label>
+                    <i class="fa fa-font" aria-hidden="true"></i>
+                </label>
+                <input type="text" id="input-text">
+            </div>
+            <div class="size">
+                <label>
+                    <i class="fa fa-ruler" aria-hidden="true"></i>
+                </label>
+                <input type="range" id="size" min="1" max="50">
+            </div>
+            <div class="color">
+                <input id="boja" type="color">
+            </div>
+            <div class="actions">
+                <button id="reset" onclick="reset()"><i class="fas fa-trash" aria-hidden="true"></i></button>
+                <button id="reset" onclick="background()"><i class="fas fa-images" aria-hidden="true"></i></button>
+                <a id="download" download="image.png"><button type="button" onClick="download()"><i class="far fa-save" aria-hidden="true"></i></button></a>
+            </div>
+        </div>
+    </div> 
+    <script src="script/canvas.js"></script>
+</body>
+</html>
