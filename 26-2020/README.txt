@@ -28,4 +28,4 @@ Kod
 
 Kontakt
 
- • Email: zix.vukovic9@gmail.com
+ • Email: contact.zivorad@gmail.com
